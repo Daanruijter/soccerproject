@@ -220,7 +220,7 @@ body {
 .rulestitle label {
     display: block;    
    
-    margin: 0 0 1px 13%;
+    margin: 0 0 1px 0;
     cursor: pointer;
     background: #6AAB95;
     border-radius: 3px;
@@ -228,9 +228,10 @@ body {
     transition: ease .5s;
     
         text-align: center;
-        width: 73%;
+        width: 100%;
         padding: 8px 0px 14px 0px;
         font-size: 85%;
+        
     
 }
 
@@ -242,11 +243,23 @@ body {
     background: #E2E5F6;
     padding: 10px 0px;
     border: 1px solid #A7A7A7;
-    margin: 0 0 1px 0%;
     width: 100%;
     border-radius: 3px;
+    margin: 0 0 1px 0px;
+    /* transform: translateX(0);
+    transition: margin transform 1s ease-out; */
+  
     
 }
+
+/* .end-state .content {
+    transform: translateX(400px);
+  } */
+
+  /* .ease-out {
+    transition-timing-function: ease-out;
+  } */
+  
 
 .rulestitle input + label + .content {
     display: none;
@@ -256,6 +269,8 @@ body {
 
 .rulestitle input:checked + label + .content {
     display: block;
+   
+
 }
 
 .registration {

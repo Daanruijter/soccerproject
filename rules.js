@@ -29,6 +29,8 @@ document.getElementById('title1').onclick = function () {
     document.getElementById('title12').checked = false
     document.getElementById('title13').checked = false
 
+    document.body.classList.toggle('end-state')
+
 }
 
 document.getElementById('title2').onclick = function () {
