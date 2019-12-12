@@ -246,19 +246,25 @@ body {
     width: 100%;
     border-radius: 3px;
     margin: 0 0 1px 0px;
-    /* transform: translateX(0);
-    transition: margin transform 1s ease-out; */
+    transform: translateX(-40px);
+    transition: transform 10s linear; 
+    
   
     
 }
 
-/* .end-state .content {
-    transform: translateX(400px);
-  } */
 
-  /* .ease-out {
+   
+    
+
+
+.end-state .content {
+    transform: translateX(400px);
+  } 
+
+    .ease-out {
     transition-timing-function: ease-out;
-  } */
+  } 
   
 
 .rulestitle input + label + .content {
