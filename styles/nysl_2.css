@@ -1,0 +1,110 @@
+
+
+.header {
+    background: url('file:///home/daan/Desktop/Ubiqum/soccerproject/image1.jpg');
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 130px;
+    position: relative;
+    z-index: 1;
+   
+}
+
+ .upcomingevents {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 1400px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    
+    
+}
+
+.pagetitle {
+    position: relative;
+    z-index: 3;
+}
+
+.logo {
+    float: left;
+    width: 7%; 
+    height: 13%;
+    margin-right: 15px;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 7%;
+    z-index: 4;
+    
+    
+}
+
+
+.active1 {
+    position: relative;
+    top: 171px;
+    left: 10px;
+    font-size: 140%;
+}
+
+.active2 {
+    position: relative;
+    top: 242px;
+    left: -48px;
+    font-size: 140%;
+}
+
+.active3 {
+    position: relative;
+    top: 314px;
+    left: -171px;
+    font-size: 140%;
+}
+
+.upcoming {
+    position: relative;
+    left: 492px;
+}
+
+.datetheme {
+    margin-left:3em;
+    font-size: 140%;
+}
+
+.date{
+    font-size: 140%;
+}
+
+.soccer1 {
+    display:none;
+}
+
+.refer {
+    color: black;
+    text-decoration: none;
+} 
+
+.soccer2 {
+    display:none;
+ }
+ 
+ .soccer3 {
+   display:none;
+ }
+
+.contact{
+    position: relative;
+    left: 492px;
+    bottom: 36px;
+    font-size: 140%;
+}
+.missionvision {
+    font-size: 150%;
+    width: 57%;
+    margin-left: 24%;
+}
+

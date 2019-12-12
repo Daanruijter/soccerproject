@@ -1,0 +1,87 @@
+.container {
+    margin: 10% 0% 0% 14%;
+    height: 150%;
+}
+
+.logo {
+    float: left;
+    width: 9%; 
+    height: 9%;
+    margin-right: 15px;
+}
+
+.pagetitle {
+    font-size: 400%;
+}
+
+.active {
+    font-size: 140%;
+    padding-right: 10px;
+    border-right:solid 1px black;
+    margin: 2px;
+}
+
+.active:last-child{
+    border: none;
+ }
+
+/* .header {
+  
+} */
+.soccer1 {
+    float: left;
+    width: 12%;
+    height: 12%;
+    position: relative;
+    top: 20px;
+    margin: 0px 30px 0px 0px;
+}
+
+.soccer2 {
+    float: left;
+    width: 9%;
+    height: 9%;
+    margin: 79px 5px 0px 0px;
+}
+
+.missionvision {
+    font-size: 150%;
+    width: 87%;
+    margin-left: 13%;
+}
+
+.date {
+margin-left:2em;
+}
+
+.datetheme {
+    margin-left:3em;
+}
+
+.upcoming {
+    font-size: 150%;
+}
+
+.soccer3 {
+    float: left;
+    width: 9%;
+    height: 9%;
+    margin: 0px 70px 0px 0px;
+}
+
+.contact {
+    font-size: 150%;
+}
+
+.refer {
+    color: black;
+    text-decoration: none;
+}
+
+.abouth1 {
+    display:none;
+}
+
+.contacth1 {
+    display:none;
+}

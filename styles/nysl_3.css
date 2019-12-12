@@ -1,0 +1,700 @@
+
+body {
+    background: url('file:///home/daan/Desktop/Ubiqum/soccerproject/grass.jpeg');
+    display: flex;
+    justify-content: center;
+}
+
+.pagetitle {
+    text-align: center;
+    width: 31%;
+    margin: 0 auto;
+    background-color: yellow;
+    border-radius: 10px;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.topnav {
+    background-color: mediumpurple;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    padding: 5% 1% 5% 1%;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+
+
+}
+
+.active {
+    
+    font-size: 200%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0% 2% 0% 0%;
+}
+
+.up {
+    background-color: white;
+    opacity: 0.8;
+    color: green;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+    border-width: 2px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 35px;
+
+}
+
+.logo {
+    float: right;
+    margin: -104px -36px -39px -14px;
+    width: 84px;
+    position: relative;
+    z-index: 10;
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.upcoming {
+    font-size: 160%;
+
+}
+
+.imagecontainer2 {
+    max-width: 98%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.soccerhome1 {
+
+    border-radius: 10px;
+    border-color: white;
+    border-width: 2px;
+    border-style: outset;
+}
+
+.soccerhome2 {
+
+    width: 47%;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: outset;
+
+}
+
+.soccerhome3 {
+
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: outset;
+}
+
+.missionvision {
+    background-color: white;
+    opacity: 0.8;
+    color: green;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    font-size: 160%;
+    border-width: 2px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: white;
+    opacity: 0.8;
+    color: green;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    font-size: 160%;
+    border-width: 2px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 10px;
+    padding-bottom: 67px;
+}
+
+/* rules and soccer table */
+.rules {
+    background-color: white;
+    opacity: 0.8;
+    color: green;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    font-size: 160%;
+    height: auto;
+    border-width: 2px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.accordion {
+    text-align: center;
+
+}
+
+.rulestitle input {
+    display: none;
+    
+}
+
+.rulestitle label {
+    display: block;    
+   
+    margin: 0 0 1px 13%;
+    cursor: pointer;
+    background: #6AAB95;
+    border-radius: 3px;
+    color: #FFF;
+    transition: ease .5s;
+    
+        text-align: center;
+        width: 73%;
+        padding: 8px 0px 14px 0px;
+        font-size: 85%;
+    
+}
+
+.rulestitle label:hover {
+    background: #4E8774;
+}
+
+.content {
+    background: #E2E5F6;
+    padding: 10px 25px;
+    border: 1px solid #A7A7A7;
+    margin: 0 0 1px 13%;
+    width: 68.5%;
+    border-radius: 3px;
+    
+}
+
+.rulestitle input + label + .content {
+    display: none;
+}
+
+.rulestitle input:checked + label + .content {
+    display: block;
+}
+
+.registration {
+    background-color: white;
+    opacity: 0.8;
+    color: green;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    font-size: 160%;
+    height: auto;
+    border-width: 2px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.elementarytitle {
+    margin-top: 4%;
+    
+
+}
+
+.soccertable {
+    background-color: white;
+    opacity: 0.8;
+    color: green;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px 5px 5px 20px;
+    width: 100%;
+    font-size: 160%;
+    height: 2600px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+/* .rulestitle {
+    text-align: centre;
+} */
+
+.rulesbold {
+    font-weight: bold;
+
+}
+
+.square {
+    list-style-type: square;
+}
+
+.youngagegroups {
+    list-style-type: lower-alpha;
+}
+
+.openround {
+    list-style-type: circle;
+}
+
+.gameinfo {
+    text-align: center;
+}
+
+.otherinfo {
+    margin-top: 2%;
+}
+
+.alignleft {
+    float: left;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* .michaelmail {
+    margin: 30px;
+} */
+
+.septemberdata {
+    text-align: left;
+    width: 78%;
+}
+
+.octoberdata {
+    text-align: left;
+    width: 81%;
+}
+
+
+.flexform {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.firstcolumnhalf {
+    display: flex;
+
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.secondcolumnhalf {
+    display: flex;
+
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.fieldpositions {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.forwarddefense {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.midfieldgoalkeeper {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.invoersize2 {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+
+}
+
+.invoersize2 input {
+    color: red;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+
+.firstcolumnhalf {
+    display: flex;
+}
+
+.firstcolumnhalf input {
+    flex: 1;
+}
+
+.secondcolumnhalf {
+    display: flex;
+}
+
+.secondcolumnhalf input {
+    flex: 1;
+}
+
+.submitbutton {
+    background: green;
+    width: 20%;
+    height: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+/* .invoersize{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;   
+    width: 67%;
+    
+}
+
+.invoersize input {
+    color:red;
+    flex-grow:1;
+    flex-wrap: nowrap;   
+    
+} */
+
+/* show_data */
+.infosent {
+    display: flex;
+    color: red;
+    background-color: black;
+    border-style: inherit;
+    border-color: red;
+    border-radius: 10px;
+    width: 50%;
+    height: 40%;
+    font-weight: bold;
+    font-size: 180%;
+    margin: auto;
+
+}
+
+.infosent span{
+    display:flex;
+    margin:auto;
+}
+
+.thstijl {
+    color: yellow;
+    background: forestgreen;
+
+}
+
+/* td:nth-child(1) {
+    font-weight: bold;
+    background: blue;
+}    */
+
+
+tr:nth-of-type(odd) {
+    font-weight: bold;
+    background: blue;
+    color: white;
+}
+
+tr:nth-of-type(even) {
+    font-weight: bold;
+    background: darkturquoise;
+    color: red;
+
+}
+
+.showdata {
+    background-color: #FFA500;
+    opacity: 0.95;
+    color: green;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    font-size: 160%;
+    height: 200%;
+    border-width: 2px;
+    border-style: outset;
+    border-color: firebrick;
+    border-radius: 10px;
+}
+
+.tableheader {
+    margin: 20px;
+    color: yellow;
+    background: forestgreen;
+    font-size: 150%;
+
+}
+
+
+.showdata tr:nth-of-type(odd) {
+    font-weight: bold;
+    background: blue;
+    color: white;
+    font-size: 140%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.showdata tr:nth-of-type(even) {
+    font-weight: bold;
+    background: darkturquoise;
+    color: red;
+    font-size: 140%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.showtable {
+    width: 50%;
+    font-size: 150%;
+    margin:auto;
+}   
+
+.gohome {
+    display: flex;
+    text-decoration: none;
+    color: blue;
+    width: 413px;
+    height: 84px;
+    font-size: 358%;
+}
+
+.googlemapsheader,
+.gameinfoheader,
+.registrationheader {
+    color: blue;
+}
+
+
+.marjoriephart2white,
+.howardayeager2white,
+.north2white,
+.ajkatzenmaier2white,
+.greenbay2white,
+.south2white
+
+
+{
+    color: white;
+    text-decoration: none;
+    
+}   
+
+.south2red,
+.ajkatzenmaier2red,
+.greenbay2red,
+.north2red,
+.marjoriephart2red,
+.howardayeager2red
+
+
+{
+    color: red;
+    text-decoration: none;
+    
+}   
+
+/* grid */
+.googlemaps1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    height: 380px;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 8% 24% 68%;
+
+
+}
+
+.googlemaps2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    height: 380px;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 8% 24% 68%;
+}
+
+.googlemaps3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    height: 380px;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 8% 24% 68%;
+
+}
+
+.googlemaps4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    height: 380px;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 8% 24% 68%;
+
+}
+
+.googlemaps5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    height: 380px;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 8% 24% 68%;
+}
+
+.googlemaps6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    height: 380px;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 8% 24% 68%;
+
+}
+
+.gamelocation {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-weight: bold;
+
+}
+
+
+.locationname {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-style: italic;
+
+}
+
+.gameaddress {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-weight: bold;
+
+}
+
+.addressname {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-style: italic;
+
+}
+
+
+
+
+.iframeitem {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+
+}
+
+iframe {
+    width: 90%;
+    height: 100%;
+
+}
+
+.googlemapscontainer {
+
+    display: grid;
+    /* height: 110px; */
+    /* width: 10%; */
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 380px 380px 380px;
+    justify-items: center;
+}
+
+/* media rules */
+/* media rules */
+/* media rules */
+/* media rules */
