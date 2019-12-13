@@ -16,7 +16,7 @@ body {
 }
 
 .pagetitlemobile {
-    display:normal;
+    display:block;
     text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -188,7 +188,7 @@ body {
     color: green;
     border-radius: 10px;
     margin: auto;
-    padding: 5px 5px 5px 5px;
+    
     width: 100%;
     font-size: 120%;
     height: auto;
@@ -200,9 +200,9 @@ body {
 
 .rules ul {
     list-style: none;
-    padding-left: 0;
+    
     text-align: left;
-    padding-right: 8px;
+  
 }
 
 
@@ -241,41 +241,107 @@ body {
 
 .content {
     background: #E2E5F6;
-    padding: 10px 0px;
+   
     border: 1px solid #A7A7A7;
     width: 100%;
     border-radius: 3px;
     margin: 0 0 1px 0px;
-    transform: translateX(-40px);
+    /* transform: translateX(-40px);
     transition: transform 10s linear; 
-    
+     */
 }
 
 
    
     
 
-
+/* 
 .end-state .content {
     transform: translateX(400px);
   } 
 
     .ease-out {
     transition-timing-function: ease-out;
-  } 
+  }  */
   
-
 .rulestitle input + label + .content {
+    display: none;
+   
+}
+
+.rulestitle .input1:checked + .label1 + .content1 {
+    display: block;
+    
+   
+
+}
+
+.rulestitle .input2:checked + .label2 + .content2 {
+    display: block;
+   
+   
+
+}
+
+.rulestitle .input3:checked + .label3 + .content3 {
+    display: block;
+    
+   
+
+}
+
+  .rulestitle .input1:checked + .input2:checked + .label1 + .content1 + .label2 + .content2 {
+    display: none;
+    /* display: none; */
+   
+
+}
+
+/* .rulestitle .input1:checked + .label2 + .content2 {
+    display: none;
+   
+
+}
+
+.rulestitle .input2:checked + .label2 + .content {
+    display: block;
+   
+
+} */
+
+
+
+/* .rulestitle .input2:checked + .label2 + .content {
+    display: block;
+   
+
+} */
+
+  
+  /* .rulestitle .input:checked + .label + .content {
+  background-color: blue;
+    display: inline;
+  } */
+
+/* .rulestitle .input1 .input2 + .label1 .label2 + .content1 .content2 {
     display: none;
 }
 
 
 
-.rulestitle input:checked + label + .content {
-    display: block;
+.rulestitle .input1:checked + .label3 + .content +:not(.content3 .input3 .input3) { 
+    display: none;
    
 
 }
+
+.rulestitle input:not(:checked) + label + .content2 {
+    display: block;
+   
+
+}  */
+
+
 
 .registration {
     display: flex;
