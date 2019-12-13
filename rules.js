@@ -1,228 +1,227 @@
-window.onload = function () {
-    console.log("hi")
 
+// if (document.getElementById('title1').checked === false) {
+//     console.log("hallo")
+//   document.getElementsByClassName('content1')[0].style.display="none"
+// }
 
-    console.log(document.getElementById('title1').checked)
-    console.log(document.getElementsByClassName('rulecheckbox'))
+// document.getElementById('title1').onclick = function () {
+//     console.log("hi")
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
+    // document.body.classList.toggle('end-state')
+//     document.getElementsByClassName('content1')[0].style.display="block"
+//     if (document.getElementById('title1').checked === false) {
+//         console.log("hallo")
+//       document.getElementsByClassName('content1')[0].style.display="none"
+//     } else {
+//         document.getElementsByClassName('content1')[0].classList.add('content')
+//     }
+   
+    
 
+// }
 
+// document.getElementById('title2').onclick = function () {
 
-    if (document.getElementById('title1').checked) {
-        console.log("hallo")
-    }
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-}
+// }
 
-document.getElementById('title1').onclick = function () {
+// document.getElementById('title3').onclick = function () {
 
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-    document.body.classList.toggle('end-state')
+// }
+// document.getElementById('title4').onclick = function () {
 
-}
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-document.getElementById('title2').onclick = function () {
+// }
+// document.getElementById('title5').onclick = function () {
 
-    document.getElementById('title1').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-}
+// }
+// document.getElementById('title6').onclick = function () {
 
-document.getElementById('title3').onclick = function () {
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-    document.getElementById('title2').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
+// }
+// document.getElementById('title7').onclick = function () {
 
-}
-document.getElementById('title4').onclick = function () {
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
+// }
+// document.getElementById('title8').onclick = function () {
 
-}
-document.getElementById('title5').onclick = function () {
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
+// }
+// document.getElementById('title9').onclick = function () {
 
-}
-document.getElementById('title6').onclick = function () {
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
+// }
+// document.getElementById('title10').onclick = function () {
 
-}
-document.getElementById('title7').onclick = function () {
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
+// }
+// document.getElementById('title11').onclick = function () {
 
-}
-document.getElementById('title8').onclick = function () {
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title13').checked = false
 
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
+// }
+// document.getElementById('title12').onclick = function () {
 
-}
-document.getElementById('title9').onclick = function () {
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title1').checked = false
+//     document.getElementById('title13').checked = false
 
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
+// }
+// document.getElementById('title13').onclick = function () {
 
-}
-document.getElementById('title10').onclick = function () {
+//     document.getElementById('title2').checked = false
+//     document.getElementById('title3').checked = false
+//     document.getElementById('title4').checked = false
+//     document.getElementById('title5').checked = false
+//     document.getElementById('title6').checked = false
+//     document.getElementById('title7').checked = false
+//     document.getElementById('title8').checked = false
+//     document.getElementById('title9').checked = false
+//     document.getElementById('title10').checked = false
+//     document.getElementById('title11').checked = false
+//     document.getElementById('title12').checked = false
+//     document.getElementById('title1').checked = false
 
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
-
-}
-document.getElementById('title11').onclick = function () {
-
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title13').checked = false
-
-}
-document.getElementById('title12').onclick = function () {
-
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title1').checked = false
-    document.getElementById('title13').checked = false
-
-}
-document.getElementById('title13').onclick = function () {
-
-    document.getElementById('title2').checked = false
-    document.getElementById('title3').checked = false
-    document.getElementById('title4').checked = false
-    document.getElementById('title5').checked = false
-    document.getElementById('title6').checked = false
-    document.getElementById('title7').checked = false
-    document.getElementById('title8').checked = false
-    document.getElementById('title9').checked = false
-    document.getElementById('title10').checked = false
-    document.getElementById('title11').checked = false
-    document.getElementById('title12').checked = false
-    document.getElementById('title1').checked = false
-
-}
+// }
