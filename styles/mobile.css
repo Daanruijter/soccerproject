@@ -263,6 +263,13 @@ body {
     .ease-out {
     transition-timing-function: ease-out;
   }  */
+
+  .rulestitle .input1:checked + .input2:checked + .label1 + .content1 + .label2 + .content2 {
+    display: none;
+    /* display: none; */
+   
+
+}
   
 .rulestitle input + label + .content {
     display: none;
@@ -290,12 +297,7 @@ body {
 
 }
 
-  .rulestitle .input1:checked + .input2:checked + .label1 + .content1 + .label2 + .content2 {
-    display: none;
-    /* display: none; */
-   
 
-}
 
 /* .rulestitle .input1:checked + .label2 + .content2 {
     display: none;
