@@ -1,6 +1,5 @@
-
 body {
-    background: url('file:///home/daan/Desktop/Ubiqum/soccerproject/grass.jpeg');
+    background: url('./grass.jpeg');
     display: flex;
     justify-content: center;
 }
@@ -15,7 +14,7 @@ body {
 }
 
 .pagetitlemobile {
-    display:none;
+    display: none;
 }
 
 .container {
@@ -76,12 +75,13 @@ body {
 
 @keyframes rotation {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(359deg);
+        transform: rotate(359deg);
     }
-  }
+}
 
 /* .upcoming {
     font-size: 160%;
@@ -182,24 +182,24 @@ body {
 
 .rulestitle input {
     display: none;
-    
+
 }
 
 .rulestitle label {
-    display: block;    
-   
+    display: block;
+
     margin: 0 0 1px 0%;
     cursor: pointer;
     background: #6AAB95;
     border-radius: 3px;
     color: #FFF;
     transition: ease .5s;
-    
-        text-align: center;
-        width: 100%;
-        padding: 8px 0px 14px 0px;
-        font-size: 85%;
-    
+
+    text-align: center;
+    width: 100%;
+    padding: 8px 0px 14px 0px;
+    font-size: 85%;
+
 }
 
 .rulestitle label:hover {
@@ -213,20 +213,20 @@ body {
     margin: 0 0 1px 0%;
     width: 100%;
     border-radius: 3px;
-    
+
 }
 
-.rulestitle input + label + .content {
+.rulestitle input+label+.content {
     display: none;
 }
 
-.rulestitle input:checked + label + .content {
+.rulestitle input:checked+label+.content {
     display: block;
 }
 
 .registration {
     display: flex;
-    
+
     flex-direction: column;
     background-color: white;
     opacity: 0.8;
@@ -245,7 +245,7 @@ body {
 
 .elementarytitle {
     margin-top: 4%;
-    
+
 
 }
 
@@ -442,9 +442,9 @@ body {
 
 }
 
-.infosent span{
-    display:flex;
-    margin:auto;
+.infosent span {
+    display: flex;
+    margin: auto;
 }
 
 .thstijl {
@@ -521,8 +521,8 @@ tr:nth-of-type(even) {
 .showtable {
     width: 50%;
     font-size: 150%;
-    margin:auto;
-}   
+    margin: auto;
+}
 
 .gohome {
     display: flex;
@@ -545,28 +545,22 @@ tr:nth-of-type(even) {
 .north2white,
 .ajkatzenmaier2white,
 .greenbay2white,
-.south2white
-
-
-{
+.south2white {
     color: white;
     text-decoration: none;
-    
-}   
+
+}
 
 .south2red,
 .ajkatzenmaier2red,
 .greenbay2red,
 .north2red,
 .marjoriephart2red,
-.howardayeager2red
-
-
-{
+.howardayeager2red {
     color: red;
     text-decoration: none;
-    
-}   
+
+}
 
 /* grid */
 .googlemaps1 {
@@ -714,7 +708,7 @@ iframe {
     grid-template-columns: 50% 50%;
     grid-template-rows: 380px 380px 380px;
     justify-items: center;
-    font-size:80%;
+    font-size: 80%;
 }
 
 /* media rules */

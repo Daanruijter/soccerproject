@@ -1,5 +1,5 @@
 body {
-    background: url('file:///home/daan/Desktop/Ubiqum/soccerproject/grass.jpeg');
+    background: url('./grass.jpeg');
     display: flex;
     justify-content: center;
     height: 100%;
@@ -316,21 +316,21 @@ body {
     align-items: flex-end;
 }
 
-.grade label{
-   
+.grade label {
+
     font-size: 70%;
-    justify-content: center; 
+    justify-content: center;
     display: flex;
 
 }
 
 .city label {
-   margin-right: 90%;
+    margin-right: 90%;
 }
 
 .zipcode label {
     margin-right: 60%;
- }
+}
 
 .fieldpositions {
     display: flex;
@@ -429,7 +429,7 @@ body {
     font-weight: bold;
     font-size: 180%;
 
-    
+
 
 }
 
@@ -525,10 +525,10 @@ tr:nth-of-type(even) {
 .googlemapsheader,
 .gameinfoheader,
 .registrationheader {
-    display:flex;
+    display: flex;
     color: blue;
     font-size: 130%;
-    
+
 }
 
 
@@ -560,7 +560,7 @@ tr:nth-of-type(even) {
     display: grid;
     /* height: 110px; */
     /* width: 10%; */
-    grid-template-columns: 100%; 
+    grid-template-columns: 100%;
     grid-template-rows: 190px 190px 190px 190px 190px 190px;
     justify-items: center;
 }
@@ -729,7 +729,7 @@ tr:nth-of-type(even) {
     grid-row-end: 4;
     font-size: 10px;
     height: 88%;
-   
+
 
 
 }

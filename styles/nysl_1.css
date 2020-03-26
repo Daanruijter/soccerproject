@@ -5,7 +5,7 @@
 
 .logo {
     float: left;
-    width: 9%; 
+    width: 9%;
     height: 9%;
     margin-right: 15px;
 }
@@ -17,13 +17,13 @@
 .active {
     font-size: 140%;
     padding-right: 10px;
-    border-right:solid 1px black;
+    border-right: solid 1px black;
     margin: 2px;
 }
 
-.active:last-child{
+.active:last-child {
     border: none;
- }
+}
 
 /* .header {
   
@@ -51,11 +51,11 @@
 }
 
 .date {
-margin-left:2em;
+    margin-left: 2em;
 }
 
 .datetheme {
-    margin-left:3em;
+    margin-left: 3em;
 }
 
 .upcoming {
@@ -79,9 +79,9 @@ margin-left:2em;
 }
 
 .abouth1 {
-    display:none;
+    display: none;
 }
 
 .contacth1 {
-    display:none;
+    display: none;
 }

@@ -1,6 +1,5 @@
-
 body {
-    background: url('file:///home/daan/Desktop/Ubiqum/soccerproject/grass.jpeg');
+    background: url('../grass.jpeg');
     display: flex;
     justify-content: center;
 }
@@ -15,7 +14,7 @@ body {
 }
 
 .pagetitlemobile {
-    display:none;
+    display: none;
 }
 
 .container {
@@ -41,7 +40,7 @@ body {
 }
 
 .active {
-    
+
     font-size: 200%;
     color: white;
     text-decoration: none;
@@ -77,12 +76,13 @@ body {
 
 @keyframes rotation {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(359deg);
+        transform: rotate(359deg);
     }
-  }
+}
 
 .upcoming {
     font-size: 160%;
@@ -175,24 +175,24 @@ body {
 
 .rulestitle input {
     display: none;
-    
+
 }
 
 .rulestitle label {
-    display: block;    
-   
+    display: block;
+
     margin: 0 0 1px 13%;
     cursor: pointer;
     background: #6AAB95;
     border-radius: 3px;
     color: #FFF;
     transition: ease .5s;
-    
-        text-align: center;
-        width: 73%;
-        padding: 8px 0px 14px 0px;
-        font-size: 85%;
-    
+
+    text-align: center;
+    width: 73%;
+    padding: 8px 0px 14px 0px;
+    font-size: 85%;
+
 }
 
 .rulestitle label:hover {
@@ -206,14 +206,14 @@ body {
     margin: 0 0 1px 13%;
     width: 68.5%;
     border-radius: 3px;
-    
+
 }
 
-.rulestitle input + label + .content {
+.rulestitle input+label+.content {
     display: none;
 }
 
-.rulestitle input:checked + label + .content {
+.rulestitle input:checked+label+.content {
     display: block;
 }
 
@@ -235,7 +235,7 @@ body {
 
 .elementarytitle {
     margin-top: 4%;
-    
+
 
 }
 
@@ -263,6 +263,7 @@ body {
     font-weight: bold;
 
 }
+
 .square {
     list-style-type: square;
 }
@@ -423,9 +424,9 @@ body {
 
 }
 
-.infosent span{
-    display:flex;
-    margin:auto;
+.infosent span {
+    display: flex;
+    margin: auto;
 }
 
 .thstijl {
@@ -502,8 +503,8 @@ tr:nth-of-type(even) {
 .showtable {
     width: 50%;
     font-size: 150%;
-    margin:auto;
-}   
+    margin: auto;
+}
 
 .gohome {
     display: flex;
@@ -526,28 +527,22 @@ tr:nth-of-type(even) {
 .north2white,
 .ajkatzenmaier2white,
 .greenbay2white,
-.south2white
-
-
-{
+.south2white {
     color: white;
     text-decoration: none;
-    
-}   
+
+}
 
 .south2red,
 .ajkatzenmaier2red,
 .greenbay2red,
 .north2red,
 .marjoriephart2red,
-.howardayeager2red
-
-
-{
+.howardayeager2red {
     color: red;
     text-decoration: none;
-    
-}   
+
+}
 
 /* grid */
 .googlemaps1 {
