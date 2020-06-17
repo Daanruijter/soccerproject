@@ -1,5 +1,5 @@
 body {
-    background: url('./grass.jpeg');
+    background: url('../grass.jpeg');
     display: flex;
     justify-content: center;
     height: 100%;
