@@ -99,13 +99,6 @@ body {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     width: 100%;
-
-    /* with flex */
-    /* max-width: 98%;
-    display: flex;
-    */
-
-
 }
 
 .soccerhome1 {
@@ -246,29 +239,13 @@ body {
     width: 100%;
     border-radius: 3px;
     margin: 0 0 1px 0px;
-    /* transform: translateX(-40px);
-    transition: transform 10s linear; 
-     */
 }
 
 
 
-
-
-/* 
-.end-state .content {
-    transform: translateX(400px);
-  } 
-
-    .ease-out {
-    transition-timing-function: ease-out;
-  }  */
-
 .rulestitle .input1:checked+.input2:checked+.label1+.content1+.label2+.content2 {
     display: none;
-    /* display: none; */
-
-
+ 
 }
 
 .rulestitle input+label+.content {
@@ -276,73 +253,9 @@ body {
 
 }
 
-.rulestitle .input1:checked+.label1+.content1 {
+.rulestitle input:checked+label+.content {
     display: block;
-
-
-
 }
-
-.rulestitle .input2:checked+.label2+.content2 {
-    display: block;
-
-
-
-}
-
-.rulestitle .input3:checked+.label3+.content3 {
-    display: block;
-
-
-
-}
-
-
-
-/* .rulestitle .input1:checked + .label2 + .content2 {
-    display: none;
-   
-
-}
-
-.rulestitle .input2:checked + .label2 + .content {
-    display: block;
-   
-
-} */
-
-
-
-/* .rulestitle .input2:checked + .label2 + .content {
-    display: block;
-   
-
-} */
-
-
-/* .rulestitle .input:checked + .label + .content {
-  background-color: blue;
-    display: inline;
-  } */
-
-/* .rulestitle .input1 .input2 + .label1 .label2 + .content1 .content2 {
-    display: none;
-}
-
-
-
-.rulestitle .input1:checked + .label3 + .content +:not(.content3 .input3 .input3) { 
-    display: none;
-   
-
-}
-
-.rulestitle input:not(:checked) + label + .content2 {
-    display: block;
-   
-
-}  */
-
 
 
 .registration {
@@ -382,9 +295,6 @@ body {
 
 }
 
-/* .rulestitle {
-    text-align: centre;
-} */
 
 .rulesbold {
     font-weight: bold;
@@ -403,10 +313,6 @@ body {
     list-style-type: circle;
 }
 
-/* .rulescontainer {
-    margin: 0px 113px 0px 113px;
-} */
-
 .gameinfo {
     text-align: center;
 }
@@ -422,12 +328,6 @@ body {
 .underline {
     text-decoration: underline;
 }
-
-
-
-/* .michaelmail {
-    margin: 30px;
-} */
 
 .septemberdatacontainer {
     overflow: auto;
@@ -543,28 +443,6 @@ body {
     font-size: 120%;
 }
 
-/* .invoersize{
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: nowrap;   
-    width: 67%;
-    
-}
-
-.invoersize input {
-    color:red;
-    flex-grow:1;
-    flex-wrap: nowrap;   
-    
-} */
-
-/* show_data */
-
-/* .showdatabody {
-    width: 200%;
-    height: 100vh;
-} */
-
 .infosent {
     display: flex;
     color: red;
@@ -589,10 +467,6 @@ body {
 
 }
 
-/* td:nth-child(1) {
-    font-weight: bold;
-    background: blue;
-}    */
 
 
 tr:nth-of-type(odd) {
@@ -707,15 +581,12 @@ tr:nth-of-type(even) {
 .googlemapscontainer {
 
     display: grid;
-    /* height: 110px; */
-    /* width: 10%; */
-    grid-template-columns: 100%;
+       grid-template-columns: 100%;
     grid-template-rows: 190px 190px 190px 190px 190px 190px;
     justify-items: center;
 }
 
 
-/* grid */
 .googlemaps1 {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -891,8 +762,3 @@ iframe {
 
 }
 
-
-/* media rules */
-/* media rules */
-/* media rules */
-/* media rules */
